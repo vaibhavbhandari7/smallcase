@@ -1,0 +1,2 @@
+# smallcase
+Simple Trading App
