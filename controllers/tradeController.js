@@ -91,7 +91,7 @@ exports.deleteTradeById = async (req, res) => {
 
 exports.getReturns = async (req, res) => {
   try {
-    const marketPrice = 1000;
+    const marketPrice = 100;
     const trades = await trade.find({}, ['tickerSymbol', 'avgBuyPrice', 'shares']);
     const details = []
     let returns = 0;
